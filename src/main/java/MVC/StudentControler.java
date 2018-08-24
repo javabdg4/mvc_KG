@@ -15,6 +15,14 @@ public class StudentControler {
         student.setName(name);
     }
 
+    public void setStudentLastName(String lastName){
+        student.setLastname(lastName);
+    }
+
+    public void setStudentIndex(String index){
+        student.setIndexNumber(index);
+    }
+
 
     public void updateView() {
         studentView.printStudent(this.student);
